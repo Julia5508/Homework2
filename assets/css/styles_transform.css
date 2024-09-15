@@ -1,0 +1,41 @@
+body{
+    background-color: blanchedalmond;
+}
+
+table {
+    border: 5px  solid rgb(182, 30, 30); 
+}
+
+td {
+    border: 1px solid black;
+}
+
+img {
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
+}
+
+.t1 {
+    text-align: center;
+}
+
+.foto1 {
+    transform: rotate(180deg);
+    filter: brightness(0.9);
+    filter: contrast(150%);
+    filter: drop-shadow(5px 5px 10px black);
+    filter: grayscale(80%);
+}
+
+.tr1 {
+    background-color: aqua;
+}
+
+.tr2 {
+    background-color: rgb(192, 158, 36);
+}
+
+.tr3 {
+    background-color: rgb(195, 0, 255);
+}

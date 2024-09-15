@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <form>
+        <label for="name1">Имя пользователя:</label>
+        <input type="text" id="name1" name="login">
+        <p>
+        <label for="name2">E-mail</label>
+        <input type="text" id="name2" name="email" required>
+        
+        <p>
+            <label for="option">Выберите из выпадающего списка:</label>
+            <select name="">
+                <option value="html">HTML</option>
+                <option value="php">PHP</option>
+                <option value="bitrix">BITRIX</option>
+            </select>
+        </p>
+        <fieldset>
+            <legend>Хочу быть...</legend>
+        <input type="radio" name="radio" value="junior">Junior PHP Developer
+        <input type="radio" name="radio" value="middle">Middle PHP Developer
+        <input type="radio" name="radio" value="front">Front-end разработчик
+        <input type="radio" name="radio" value="design">Нее, хочу быть дизайнером
+    </fieldset>
+    <p>
+        <fieldset>
+            <legend>Мои навыки в программировании</legend>
+        <input type="radio" name="radio2" value="god">Бог программирования
+        <input type="radio" name="radio2" value="guru">Гуру программирования
+        <input type="radio" name="radio2" value="nub">Эм... я еще учусь
+        
+    </fieldset> 
+    </p>
+    <p>
+        <label for="option">Во сколько мне удобно приходить на занятия?</label>
+        <input type="time">
+        <p>
+            <label for="name3">Мои пожелания и комментарии по курсам</label>
+            <textarea name="comments" id=""></textarea>
+            
+        </p>
+    <p>
+        <button type="submit">Все, я справился с заполнением формы</button>
+    </p>
+    
+    </form>
+</body>
+</html>
